@@ -4,11 +4,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import bus.Hook;
+import steps.Hook;
 
-public class AccessPage {
+public class SearchBusPage {
 
-	public AccessPage() {
+	public SearchBusPage() {
 		PageFactory.initElements(Hook.driver, this);
 	}
 	@FindBy(xpath="//div[@class='topHeader wrap']")

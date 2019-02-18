@@ -1,4 +1,4 @@
-package bus;
+package steps;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,7 +16,7 @@ public class Hook {
 
 	@After
 	public void afterMethod() {
-		//driver.close();
+		driver.quit();
 	}
 	
 	
