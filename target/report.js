@@ -18,7 +18,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "name": "The user submits the search",
+  "name": "The user search the availabity",
   "keyword": "And "
 });
 formatter.step({
@@ -67,17 +67,17 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "ActionPageSteps.the_user_filling_the_fields(String,String)"
+  "location": "HomePageSteps.the_user_filling_the_fields(String,String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "The user submits the search",
+  "name": "The user search the availabity",
   "keyword": "And "
 });
 formatter.match({
-  "location": "ActionPageSteps.the_user_submits_the_search()"
+  "location": "HomePageSteps.the_user_search_the_availabity()"
 });
 formatter.result({
   "status": "passed"
@@ -87,7 +87,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AccessPageSteps.the_availabity_results_got()"
+  "location": "SearchBusPageSteps.the_availabity_results_got()"
 });
 formatter.result({
   "status": "passed"
