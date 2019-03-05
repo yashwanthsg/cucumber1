@@ -1,0 +1,103 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1462279901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeMethod()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To test the abhibus website",
+        "description": "",
+        "id": ";to-test-the-abhibus-website;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 71716195,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3771439341,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is in home page",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 752059687,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user filling the fields \"Chennai\", \"Madurai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Madurai\"",
+                  "offset": 39
+                }
+              ],
+              "location": "HomePageSteps.the_user_filling_the_fields(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2133189589,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user search the availabity",
+            "match": {
+              "location": "HomePageSteps.the_user_search_the_availabity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47223426,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The availabity results got",
+            "match": {
+              "location": "SearchBusPageSteps.the_availabity_results_got()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/AbiBus.feature",
+    "tags": []
+  }
+]
